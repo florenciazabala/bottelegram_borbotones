@@ -64,7 +64,7 @@ public class TelegramBot extends TelegramLongPollingBot {
             keyboardMarkup.setKeyboard(keyboard);
 
             sendMessage.setChatId(chatId);
-            sendMessage.setText("keyboard");
+            //sendMessage.setText("keyboard");
             sendMessage.setReplyMarkup(keyboardMarkup);
 
         }else if(messageText.equals("/status")){
